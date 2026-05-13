@@ -1,8 +1,8 @@
-import Navbar from '../sharedComponents/Navbar';
-import Footer from '../sharedComponents/Footer';
-import PrivacyPolicyHero from '../components/Pages/PrivacyPolicyPage/PrivacyPolicyHero';
-import PrivacyPolicyMain from '../components/Pages/PrivacyPolicyPage/PrivacyPolicyMain';
-import PremiumUpgrade from '../components/Pages/HomePage/PremiumUpgrade';
+import Navbar from '../../components/sharedComponents/Navbar';
+import Footer from '../../components/sharedComponents/Footer';
+import PrivacyPolicyHero from '../../components/Pages/PrivacyPolicyPage/PrivacyPolicyHero';
+import PrivacyPolicyMain from '../../components/Pages/PrivacyPolicyPage/PrivacyPolicyMain';
+import PremiumUpgrade from '../../components/Pages/HomePage/PremiumUpgrade';
 
 export const metadata = {
   title: 'Privacy Policy - Literary Palace',
