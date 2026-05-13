@@ -7,8 +7,8 @@ import { useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import Navbar from '../../../../sharedComponents/Navbar';
-import Footer from '../../../../sharedComponents/Footer';
+import Navbar from '../../../../components/sharedComponents/Navbar';
+import Footer from '../../../../components/sharedComponents/Footer';
 import { BookOpen, Share2, Printer, Download, Bookmark, ChevronRight, Search } from 'lucide-react';
 
 // Sample data - replace with actual API call or database query
