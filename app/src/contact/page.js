@@ -1,8 +1,8 @@
-import Navbar from '../sharedComponents/Navbar';
-import Footer from '../sharedComponents/Footer';
-import ContactUsHero from '../components/Pages/ContactUsPage/ContactUsHero';
-import ContactUsMain from '../components/Pages/ContactUsPage/ContactUsMain';
-import PremiumUpgrade from '../components/Pages/HomePage/PremiumUpgrade';
+import Navbar from '../../components/sharedComponents/Navbar';
+import Footer from '../../components/sharedComponents/Footer';
+import ContactUsHero from '../../components/Pages/ContactUsPage/ContactUsHero';
+import ContactUsMain from '../../components/Pages/ContactUsPage/ContactUsMain';
+import PremiumUpgrade from '../../components/Pages/HomePage/PremiumUpgrade';
 
 export const metadata = {
   title: 'Contact Us - Literary Palace',
