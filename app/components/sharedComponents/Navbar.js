@@ -6,9 +6,9 @@ import Image from 'next/image';
 import { Menu, X, Globe, LogIn, UserPlus, ChevronDown } from 'lucide-react';
 
 const guideItems = [
-	{ id: 1, label: 'Team', hl: '/src/our-team' },
-	{ id: 2, label: 'Faculty', hl: '/src/faculty' },
-	{ id: 3, label: 'C. Critical Theory Guide', hl: '/src/our-team' },
+	{ id: 1, label: 'Our Team', hl: '/src/our-team' },
+	{ id: 2, label: 'Our Faculty', hl: '/src/faculty' },
+	{ id: 3, label: 'About Us', hl: '/src/about-us' },
 	{ id: 4, label: 'D. Drama & Poetry Guide', hl: '/src/our-team' },
 	{ id: 5, label: 'E. Essay Structure Guide', hl: '/src/our-team' },
 ];
