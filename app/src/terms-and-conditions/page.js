@@ -1,8 +1,8 @@
-import Navbar from '../sharedComponents/Navbar';
-import Footer from '../sharedComponents/Footer';
-import TermsAndConditionsHero from '../components/Pages/TermsAndConditionsPage/TermsAndConditionsHero';
-import TermsAndConditionsMain from '../components/Pages/TermsAndConditionsPage/TermsAndConditionsMain';
-import PremiumUpgrade from '../components/Pages/HomePage/PremiumUpgrade';
+import Navbar from '../../components/sharedComponents/Navbar';
+import Footer from '../../components/sharedComponents/Footer';
+import TermsAndConditionsHero from '../../components/Pages/TermsAndConditionsPage/TermsAndConditionsHero';
+import TermsAndConditionsMain from '../../components/Pages/TermsAndConditionsPage/TermsAndConditionsMain';
+import PremiumUpgrade from '../../components/Pages/HomePage/PremiumUpgrade';
 
 export const metadata = {
   title: 'Terms and Conditions - Literary Palace',

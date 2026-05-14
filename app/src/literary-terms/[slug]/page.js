@@ -1,4 +1,4 @@
-import LiteraryTermDetail from '../../components/Pages/LiteraryPalaceInsights/LiteraryTerms/LiteraryTermDetail';
+import LiteraryTermDetail from '../../../components/Pages/LiteraryPalaceInsights/LiteraryTerms/LiteraryTermDetail';
 
 export async function generateMetadata({ params }) {
   // params may be a promise in Next.js app routes — await it

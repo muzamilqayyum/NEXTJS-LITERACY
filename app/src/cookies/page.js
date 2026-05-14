@@ -1,8 +1,8 @@
-import Navbar from '../sharedComponents/Navbar';
-import Footer from '../sharedComponents/Footer';
-import CookiePolicyHero from '../components/Pages/CookiePolicyPage/CookiePolicyHero';
-import CookiePolicyMain from '../components/Pages/CookiePolicyPage/CookiePolicyMain';
-import PremiumUpgrade from '../components/Pages/HomePage/PremiumUpgrade';
+import Navbar from '../../components/sharedComponents/Navbar';
+import Footer from '../../components/sharedComponents/Footer';
+import CookiePolicyHero from '../../components/Pages/CookiePolicyPage/CookiePolicyHero';
+import CookiePolicyMain from '../../components/Pages/CookiePolicyPage/CookiePolicyMain';
+import PremiumUpgrade from '../../components/Pages/HomePage/PremiumUpgrade';
 
 export const metadata = {
   title: 'Cookie Policy - Literary Palace',
