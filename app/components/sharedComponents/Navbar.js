@@ -9,7 +9,7 @@ const guideItems = [
 	{ id: 1, label: 'Our Team', hl: '/src/our-team' },
 	{ id: 2, label: 'Our Faculty', hl: '/src/faculty' },
 	{ id: 3, label: 'About Us', hl: '/src/about-us' },
-	{ id: 4, label: 'D. Drama & Poetry Guide', hl: '/src/our-team' },
+	{ id: 4, label: 'Contact Us', hl: '/src/contact' },
 	{ id: 5, label: 'E. Essay Structure Guide', hl: '/src/our-team' },
 ];
 
@@ -189,9 +189,9 @@ const Navbar = () => {
 									>
 										<div className="ml-3 mt-1 border-l-2 border-[#b5d56a] pl-3 space-y-1">
 											{guideItems.map((guide) => (
-												<a
+												<Link
 													key={guide.id}
-													href="#"
+													href={guide.hl}
 													onClick={() => setIsOpen(false)}
 													className="flex items-center gap-2.5 px-2 py-2 rounded-md text-sm text-[#001327] hover:text-[#b5d56a] hover:bg-[#b5d56a]/5 transition-colors"
 													style={{ fontFamily: 'Raleway, sans-serif' }}
@@ -200,7 +200,7 @@ const Navbar = () => {
 														{guide.id}
 													</span>
 													<span className="font-medium">{guide.label}</span>
-												</a>
+												</Link>
 											))}
 										</div>
 									</div>
