@@ -30,7 +30,7 @@ const AboutUs = () => {
             <button
               aria-label="About Us"
               className="bg-[#07294e] text-white px-12 py-3 rounded-lg font-semibold hover:bg-[#0a3a6b] transition-colors duration-200 shadow-md hover:shadow-lg cursor-pointer"
-              onClick={() => window.location.href = '/about-us'}
+              onClick={() => window.location.href = 'src/about-us'}
             >
               About Us
             </button>
