@@ -181,10 +181,10 @@ const Footer = () => {
             <div>
               <h3 className="text-white font-bold text-sm mb-4 uppercase tracking-wider">Explore</h3>
               <ul className="space-y-2">
-                <li><a href="/literature" className="text-sm text-gray-300 hover:text-white transition-colors">Literature</a></li>
-                <li><a href="/literary-terms" className="text-sm text-gray-300 hover:text-white transition-colors">Literary Terms</a></li>
-                <li><a href="/critical-guides" className="text-sm text-gray-300 hover:text-white transition-colors">Critical Guides</a></li>
-                <li><a href="/world-literature" className="text-sm text-gray-300 hover:text-white transition-colors">World Literature</a></li>
+                <li><Link href="/src/literature" className="text-sm text-gray-300 hover:text-white transition-colors">Literature</Link></li>
+                <li><Link href="/src/literary-terms" className="text-sm text-gray-300 hover:text-white transition-colors">Literary Terms</Link></li>
+                <li><Link href="/src/critical-perspectives" className="text-sm text-gray-300 hover:text-white transition-colors">Critical Guides</Link></li>
+                <li><Link href="/src/world-literature" className="text-sm text-gray-300 hover:text-white transition-colors">World Literature</Link></li>
                 <li><a href="/services" className="text-sm text-gray-300 hover:text-white transition-colors">Our Services</a></li>
               </ul>
             </div>
@@ -237,13 +237,13 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400">
             <p>All Rights Reserved. Copyright © 2025 Literary Palace</p>
             <div className="flex flex-wrap justify-center gap-2">
-              <a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>
+              <Link href="/src/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
               <span>|</span>
-              <a href="/terms-and-conditions" className="hover:text-white transition-colors">Terms and Conditions</a>
+              <Link href="/src/terms-and-conditions" className="hover:text-white transition-colors">Terms and Conditions</Link>
               <span>|</span>
-              <a href="/cookies" className="hover:text-white transition-colors">Cookie Policy</a>
+              <Link href="/src/cookies" className="hover:text-white transition-colors">Cookie Policy</Link>
               <span>|</span>
-              <a href="/disclaimer" className="hover:text-white transition-colors">Disclaimer</a>
+              <Link href="/src/disclaimer" className="hover:text-white transition-colors">Disclaimer</Link>
             </div>
           </div>
         </div>
